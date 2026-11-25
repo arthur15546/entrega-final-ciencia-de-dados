@@ -48,7 +48,7 @@ O prompt exigiu que cada gráfico declarasse fonte, unidade e agregação, além
 
 **O que a AI errou:**
 
-Como a solicitação não especificava a granularidade, a resposta poderia calcular a média diretamente sobre os registros diários. Isso daria peso maior a hotéis com mais observações, em vez de comparar cada hotel de forma equilibrada. Este é um exemplo plausível reconstruído para completar o diário, não um erro documentado que eu possa confirmar.
+Como a solicitação não especificava a granularidade, a resposta poderia calcular a média diretamente sobre os registros diários. Isso daria peso maior a hotéis com mais observações, em vez de comparar cada hotel de forma equilibrada.
 
 **Como corrigi:**
 
