@@ -10,27 +10,14 @@ DATA_DIR = Path(__file__).resolve().parent / "data"
 
 st.set_page_config(
     page_title="Painel Gerencial de Hotel",
-    page_icon="",
+    page_icon="🏨",
     layout="wide",
 )
 
 st.markdown(
     """
     <style>
-    .block-container {padding-top: 1.5rem; padding-bottom: 2rem;}
-    [data-testid="stMetric"] {
-        background: #f4f7fb;
-        border: 1px solid #dde5ef;
-        border-radius: 10px;
-        padding: 14px;
-    }
-    .decision-box {
-        background: #eef5ff;
-        border-left: 4px solid #1f77b4;
-        padding: 10px 14px;
-        border-radius: 6px;
-        margin-bottom: 12px;
-    }
+    .block-container {padding-top: 2rem; padding-bottom: 2rem;}
     </style>
     """,
     unsafe_allow_html=True,
@@ -49,19 +36,16 @@ def load_data():
 
 monthly, hotel_summary, scenario_summary, competitive_year = load_data()
 
-st.title("Painel Gerencial de Hotel")
+st.title("Painel gerencial de hotel")
 st.caption(
-    "Decisões apoiadas por desempenho mensal, posicionamento competitivo e avaliações."
+    "Acompanhe o desempenho mensal, a posição competitiva e a experiência dos hóspedes."
 )
 
 st.markdown(
     """
-    <div class="decision-box">
-    <b>Público:</b> gerente geral de hotel &nbsp;|&nbsp;
-    <b>Decisões:</b> ajustar preço e ocupação; priorizar melhorias operacionais; comparar posição no mercado.
-    </div>
+    **Visão para gestão:** use os indicadores para orientar preços e ocupação,
+    priorizar melhorias operacionais e comparar o hotel com o mercado.
     """,
-    unsafe_allow_html=True,
 )
 
 with st.sidebar:
@@ -69,10 +53,12 @@ with st.sidebar:
     tier = st.selectbox(
         "Tier",
         ["Todos"] + sorted(monthly["tier"].dropna().unique().tolist()),
+        help="Filtre os hotéis por categoria.",
     )
     year = st.selectbox(
         "Ano",
         ["Todos"] + sorted(monthly["year"].unique().tolist()),
+        help="Filtre os resultados pelo ano.",
     )
     hotel_options = ["Todos"] + sorted(
         monthly.loc[
@@ -81,7 +67,11 @@ with st.sidebar:
         ].unique()
         .tolist()
     )
-    hotel = st.selectbox("Hotel", hotel_options)
+    hotel = st.selectbox(
+        "Hotel",
+        hotel_options,
+        help="Selecione um hotel específico ou compare todos.",
+    )
 
 filtered = monthly.copy()
 hotel_filtered = hotel_summary.copy()
@@ -136,7 +126,8 @@ else:
     adr = room_revenue / sold if sold else None
     revpar = room_revenue / available if available else None
 
-    k1, k2, k3, k4 = st.columns(4)
+    st.subheader("Indicadores principais")
+    k1, k2, k3, k4 = st.columns(4, gap="medium")
     k1.metric("Ocupação", f"{occupancy:.1%}" if occupancy is not None else "N/D")
     k2.metric("ADR", f"{adr:,.2f}" if adr is not None else "N/D")
     k3.metric("RevPAR", f"{revpar:,.2f}" if revpar is not None else "N/D")
@@ -146,14 +137,7 @@ else:
     )
 
     st.subheader("Evolução mensal")
-    line_data = (
-        filtered.groupby("month", as_index=False)
-        .agg(
-            available_rooms=("available_rooms", "sum"),
-            rooms_sold=("rooms_sold", "sum"),
-            room_revenue=("adr", lambda s: 0),
-        )
-    )
+    st.caption("Compare a ocupação e a tarifa média ao longo do período selecionado.")
     monthly_detail = (
         filtered.groupby("month", as_index=False)
         .apply(
@@ -181,7 +165,7 @@ else:
             y=monthly_detail["occupancy"] * 100,
             name="Ocupação",
             mode="lines+markers",
-            line={"color": "#1f77b4", "width": 3},
+            line={"width": 3},
         )
     )
     fig.add_trace(
@@ -191,7 +175,7 @@ else:
             name="ADR",
             mode="lines+markers",
             yaxis="y2",
-            line={"color": "#e67e22", "width": 3},
+            line={"width": 3},
         )
     )
     fig.update_layout(
@@ -209,7 +193,8 @@ else:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    left, right = st.columns((1.05, 1))
+    st.subheader("Desempenho e mercado")
+    left, right = st.columns((1.05, 1), gap="large")
 
     with left:
         tier_data = filtered.groupby("tier", as_index=False).apply(
@@ -238,8 +223,18 @@ else:
             text="Ocupação",
             color="tier",
         )
-        tier_fig.update_traces(texttemplate="%{text:.1f}", textposition="outside")
-        tier_fig.update_layout(showlegend=False, yaxis_ticksuffix="%", height=370)
+        tier_fig.update_traces(
+            texttemplate="%{text:.1f}%",
+            textposition="outside",
+            cliponaxis=False,
+        )
+        tier_fig.update_layout(
+            showlegend=False,
+            yaxis_ticksuffix="%",
+            yaxis_range=[0, min(110, tier_data["Ocupação"].max() * 1.15)],
+            height=390,
+            margin={"t": 65, "b": 35},
+        )
         st.plotly_chart(tier_fig, use_container_width=True)
 
     with right:
@@ -267,12 +262,13 @@ else:
                     "revpar": "RevPAR",
                 },
             )
-            scatter.add_hline(y=100, line_dash="dot", line_color="#777")
-            scatter.add_vline(x=100, line_dash="dot", line_color="#777")
-            scatter.update_layout(height=370)
+            scatter.add_hline(y=100, line_dash="dot")
+            scatter.add_vline(x=100, line_dash="dot")
+            scatter.update_layout(height=390)
             st.plotly_chart(scatter, use_container_width=True)
 
     st.subheader("Cenários das avaliações")
+    st.caption("Veja o volume de avaliações associado a cada tipo de cenário.")
     if scenario_filtered.empty:
         st.info("Sem cenários de avaliação para os filtros selecionados.")
     else:
@@ -291,16 +287,12 @@ else:
             title="Volume observado por cenário",
             labels={"review_count": "Avaliações", "label": "Cenário"},
             color="expected_sentiment",
-            color_discrete_map={
-                "positive": "#2ca02c",
-                "negative": "#d62728",
-                "mixed": "#9467bd",
-            },
         )
-        scenario_fig.update_layout(height=430)
+        scenario_fig.update_layout(height=430, legend_title_text="Sentimento esperado")
         st.plotly_chart(scenario_fig, use_container_width=True)
 
     st.subheader("Tabela resumo por hotel")
+    st.caption("Indicadores agregados dos hotéis incluídos nos filtros.")
     table = hotel_filtered.copy()
     if not table.empty:
         display = table[
