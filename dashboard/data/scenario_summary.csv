@@ -1,0 +1,309 @@
+year,hotel_id,hotel_name,tier,scenario_id,review_count,label,share_of_reviews,rating_band,trigger,expected_sentiment,recovery_action,observed_share
+2027,H01,Alder & Quay Hotel,upscale,delight,110,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.009108222240622672
+2027,H02,The Lantern House,boutique,delight,26,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.002152852529601722
+2027,H03,Marisol Bay Resort,luxury,delight,132,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.010929866688747205
+2027,H04,Harborlight Suites,upscale,delight,85,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.007038171731390246
+2027,H05,The Copper Meridian,luxury,delight,66,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.0054649333443736025
+2027,H06,Seabright Grand,upscale,delight,136,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.011261074770224394
+2027,H07,The Wren Rooms,boutique,delight,18,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.001490436366647346
+2027,H08,Northgate Inn,economy,delight,43,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.0035604868758797713
+2027,H09,Cedar & Salt Hotel,midscale,delight,56,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.004636913140680632
+2027,H10,Kestrel Park Hotel,midscale,delight,68,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.005630537385112197
+2027,H11,The Foxglove,boutique,delight,36,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.002980872733294692
+2027,H12,Ridgeline Motor Inn,economy,delight,34,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.0028152686925560985
+2027,H13,Paloma Court Hotel,midscale,delight,57,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.00471971516104993
+2027,H14,Willowmere Lodge,upscale,delight,38,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.0031464767740332863
+2028,H01,Alder & Quay Hotel,upscale,delight,107,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.00885981617951478
+2028,H02,The Lantern House,boutique,delight,34,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.0028152686925560985
+2028,H03,Marisol Bay Resort,luxury,delight,151,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.012503105075763849
+2028,H04,Harborlight Suites,upscale,delight,82,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.0067897656702823545
+2028,H05,The Copper Meridian,luxury,delight,59,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.004885319201788523
+2028,H06,Seabright Grand,upscale,delight,152,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.012585907096133145
+2028,H07,The Wren Rooms,boutique,delight,12,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.0009936242444315642
+2028,H08,Northgate Inn,economy,delight,47,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.0038916949573569596
+2028,H09,Cedar & Salt Hotel,midscale,delight,71,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.005878943446220088
+2028,H10,Kestrel Park Hotel,midscale,delight,63,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.0052165272832657116
+2028,H11,The Foxglove,boutique,delight,25,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.0020700505092324253
+2028,H12,Ridgeline Motor Inn,economy,delight,31,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.002566862631448207
+2028,H13,Paloma Court Hotel,midscale,delight,50,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.0041401010184648505
+2028,H14,Willowmere Lodge,upscale,delight,51,Stay exceeded expectations,0.15,"5, 4","anticipatory service, a quiet upgrade or a personal touch",positive,thank the guest and record the staff member,0.004222903038834148
+2027,H01,Alder & Quay Hotel,upscale,location,61,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.005050923242527118
+2027,H02,The Lantern House,boutique,location,23,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0019044464684938311
+2027,H03,Marisol Bay Resort,luxury,location,91,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.007534983853606028
+2027,H04,Harborlight Suites,upscale,location,38,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0031464767740332863
+2027,H05,The Copper Meridian,luxury,location,38,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0031464767740332863
+2027,H06,Seabright Grand,upscale,location,87,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.00720377577212884
+2027,H07,The Wren Rooms,boutique,location,13,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.001076426264800861
+2027,H08,Northgate Inn,economy,location,29,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0024012585907096135
+2027,H09,Cedar & Salt Hotel,midscale,location,44,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0036432888962490686
+2027,H10,Kestrel Park Hotel,midscale,location,54,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.004471309099942039
+2027,H11,The Foxglove,boutique,location,22,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0018216444481245343
+2027,H12,Ridgeline Motor Inn,economy,location,28,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.002318456570340316
+2027,H13,Paloma Court Hotel,midscale,location,39,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0032292787944025836
+2027,H14,Willowmere Lodge,upscale,location,25,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0020700505092324253
+2028,H01,Alder & Quay Hotel,upscale,location,64,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.005299329303635009
+2028,H02,The Lantern House,boutique,location,30,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0024840606110789103
+2028,H03,Marisol Bay Resort,luxury,location,93,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.007700587894344622
+2028,H04,Harborlight Suites,upscale,location,59,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.004885319201788523
+2028,H05,The Copper Meridian,luxury,location,45,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0037260909166183655
+2028,H06,Seabright Grand,upscale,location,67,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0055477353647429
+2028,H07,The Wren Rooms,boutique,location,15,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0012420303055394552
+2028,H08,Northgate Inn,economy,location,25,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0020700505092324253
+2028,H09,Cedar & Salt Hotel,midscale,location,51,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.004222903038834148
+2028,H10,Kestrel Park Hotel,midscale,location,62,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.005133725262896414
+2028,H11,The Foxglove,boutique,location,18,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.001490436366647346
+2028,H12,Ridgeline Motor Inn,economy,location,14,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.001159228285170158
+2028,H13,Paloma Court Hotel,midscale,location,42,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0034776848555104745
+2028,H14,Willowmere Lodge,upscale,location,42,Location and access,0.1,"5, 4","walkable waterfront, ferry or old town access",positive,none needed,0.0034776848555104745
+2027,H01,Alder & Quay Hotel,upscale,breakfast,47,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0038916949573569596
+2027,H02,The Lantern House,boutique,breakfast,16,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0013248323259087522
+2027,H03,Marisol Bay Resort,luxury,breakfast,59,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.004885319201788523
+2027,H04,Harborlight Suites,upscale,breakfast,58,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.004802517181419227
+2027,H05,The Copper Meridian,luxury,breakfast,25,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0020700505092324253
+2027,H06,Seabright Grand,upscale,breakfast,93,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.007700587894344622
+2027,H07,The Wren Rooms,boutique,breakfast,11,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0009108222240622672
+2027,H08,Northgate Inn,economy,breakfast,25,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0020700505092324253
+2027,H09,Cedar & Salt Hotel,midscale,breakfast,34,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0028152686925560985
+2027,H10,Kestrel Park Hotel,midscale,breakfast,47,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0038916949573569596
+2027,H11,The Foxglove,boutique,breakfast,15,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0012420303055394552
+2027,H12,Ridgeline Motor Inn,economy,breakfast,15,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0012420303055394552
+2027,H13,Paloma Court Hotel,midscale,breakfast,44,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0036432888962490686
+2027,H14,Willowmere Lodge,upscale,breakfast,34,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0028152686925560985
+2028,H01,Alder & Quay Hotel,upscale,breakfast,69,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0057133394054814934
+2028,H02,The Lantern House,boutique,breakfast,14,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.001159228285170158
+2028,H03,Marisol Bay Resort,luxury,breakfast,63,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0052165272832657116
+2028,H04,Harborlight Suites,upscale,breakfast,44,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0036432888962490686
+2028,H05,The Copper Meridian,luxury,breakfast,25,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0020700505092324253
+2028,H06,Seabright Grand,upscale,breakfast,69,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0057133394054814934
+2028,H07,The Wren Rooms,boutique,breakfast,6,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0004968121222157821
+2028,H08,Northgate Inn,economy,breakfast,28,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.002318456570340316
+2028,H09,Cedar & Salt Hotel,midscale,breakfast,35,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0028980707129253954
+2028,H10,Kestrel Park Hotel,midscale,breakfast,51,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.004222903038834148
+2028,H11,The Foxglove,boutique,breakfast,16,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0013248323259087522
+2028,H12,Ridgeline Motor Inn,economy,breakfast,24,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0019872484888631284
+2028,H13,Paloma Court Hotel,midscale,breakfast,27,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0022356545499710194
+2028,H14,Willowmere Lodge,upscale,breakfast,29,Breakfast and food,0.09,"5, 4, 3","breakfast quality, choice or service pace",mixed,invite the guest back and review the buffet line,0.0024012585907096135
+2027,H01,Alder & Quay Hotel,upscale,service_recovery,63,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0052165272832657116
+2027,H02,The Lantern House,boutique,service_recovery,23,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0019044464684938311
+2027,H03,Marisol Bay Resort,luxury,service_recovery,86,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.007120973751759543
+2027,H04,Harborlight Suites,upscale,service_recovery,43,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0035604868758797713
+2027,H05,The Copper Meridian,luxury,service_recovery,39,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0032292787944025836
+2027,H06,Seabright Grand,upscale,service_recovery,86,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.007120973751759543
+2027,H07,The Wren Rooms,boutique,service_recovery,19,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0015732383870166431
+2027,H08,Northgate Inn,economy,service_recovery,32,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0026496646518175044
+2027,H09,Cedar & Salt Hotel,midscale,service_recovery,59,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.004885319201788523
+2027,H10,Kestrel Park Hotel,midscale,service_recovery,52,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.004305705059203444
+2027,H11,The Foxglove,boutique,service_recovery,18,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.001490436366647346
+2027,H12,Ridgeline Motor Inn,economy,service_recovery,16,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0013248323259087522
+2027,H13,Paloma Court Hotel,midscale,service_recovery,48,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.003974496977726257
+2027,H14,Willowmere Lodge,upscale,service_recovery,43,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0035604868758797713
+2028,H01,Alder & Quay Hotel,upscale,service_recovery,65,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.005382131324004306
+2028,H02,The Lantern House,boutique,service_recovery,17,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0014076343462780493
+2028,H03,Marisol Bay Resort,luxury,service_recovery,92,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.007617785873975325
+2028,H04,Harborlight Suites,upscale,service_recovery,53,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0043885070795727414
+2028,H05,The Copper Meridian,luxury,service_recovery,37,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0030636747536639895
+2028,H06,Seabright Grand,upscale,service_recovery,90,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.007452181833236731
+2028,H07,The Wren Rooms,boutique,service_recovery,14,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.001159228285170158
+2028,H08,Northgate Inn,economy,service_recovery,24,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0019872484888631284
+2028,H09,Cedar & Salt Hotel,midscale,service_recovery,39,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0032292787944025836
+2028,H10,Kestrel Park Hotel,midscale,service_recovery,44,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0036432888962490686
+2028,H11,The Foxglove,boutique,service_recovery,15,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0012420303055394552
+2028,H12,Ridgeline Motor Inn,economy,service_recovery,24,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0019872484888631284
+2028,H13,Paloma Court Hotel,midscale,service_recovery,34,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.0028152686925560985
+2028,H14,Willowmere Lodge,upscale,service_recovery,31,Service recovery,0.1,"5, 4, 3",a problem raised during the stay and fixed well,positive,log the recovery and brief the shift,0.002566862631448207
+2027,H01,Alder & Quay Hotel,upscale,room_condition,60,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.004968121222157821
+2027,H02,The Lantern House,boutique,room_condition,27,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0022356545499710194
+2027,H03,Marisol Bay Resort,luxury,room_condition,84,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.006955369711020949
+2027,H04,Harborlight Suites,upscale,room_condition,49,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.004057298998095553
+2027,H05,The Copper Meridian,luxury,room_condition,37,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0030636747536639895
+2027,H06,Seabright Grand,upscale,room_condition,86,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.007120973751759543
+2027,H07,The Wren Rooms,boutique,room_condition,17,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0014076343462780493
+2027,H08,Northgate Inn,economy,room_condition,49,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.004057298998095553
+2027,H09,Cedar & Salt Hotel,midscale,room_condition,56,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.004636913140680632
+2027,H10,Kestrel Park Hotel,midscale,room_condition,62,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.005133725262896414
+2027,H11,The Foxglove,boutique,room_condition,20,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0016560404073859402
+2027,H12,Ridgeline Motor Inn,economy,room_condition,38,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0031464767740332863
+2027,H13,Paloma Court Hotel,midscale,room_condition,49,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.004057298998095553
+2027,H14,Willowmere Lodge,upscale,room_condition,55,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.004554111120311336
+2028,H01,Alder & Quay Hotel,upscale,room_condition,69,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0057133394054814934
+2028,H02,The Lantern House,boutique,room_condition,26,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.002152852529601722
+2028,H03,Marisol Bay Resort,luxury,room_condition,77,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.00637575556843587
+2028,H04,Harborlight Suites,upscale,room_condition,62,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.005133725262896414
+2028,H05,The Copper Meridian,luxury,room_condition,33,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0027324666721868012
+2028,H06,Seabright Grand,upscale,room_condition,83,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.006872567690651652
+2028,H07,The Wren Rooms,boutique,room_condition,17,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0014076343462780493
+2028,H08,Northgate Inn,economy,room_condition,50,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0041401010184648505
+2028,H09,Cedar & Salt Hotel,midscale,room_condition,67,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0055477353647429
+2028,H10,Kestrel Park Hotel,midscale,room_condition,71,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.005878943446220088
+2028,H11,The Foxglove,boutique,room_condition,23,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0019044464684938311
+2028,H12,Ridgeline Motor Inn,economy,room_condition,35,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0028980707129253954
+2028,H13,Paloma Court Hotel,midscale,room_condition,63,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.0052165272832657116
+2028,H14,Willowmere Lodge,upscale,room_condition,36,Room condition,0.11,"3, 2, 1","wear, maintenance or an unfinished room",negative,block the room and raise a work order,0.002980872733294692
+2027,H01,Alder & Quay Hotel,upscale,noise,45,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0037260909166183655
+2027,H02,The Lantern House,boutique,noise,19,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0015732383870166431
+2027,H03,Marisol Bay Resort,luxury,noise,70,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.005796141425850791
+2027,H04,Harborlight Suites,upscale,noise,50,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0041401010184648505
+2027,H05,The Copper Meridian,luxury,noise,36,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.002980872733294692
+2027,H06,Seabright Grand,upscale,noise,82,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0067897656702823545
+2027,H07,The Wren Rooms,boutique,noise,16,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0013248323259087522
+2027,H08,Northgate Inn,economy,noise,37,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0030636747536639895
+2027,H09,Cedar & Salt Hotel,midscale,noise,57,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.00471971516104993
+2027,H10,Kestrel Park Hotel,midscale,noise,75,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.006210151527697276
+2027,H11,The Foxglove,boutique,noise,9,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.000745218183323673
+2027,H12,Ridgeline Motor Inn,economy,noise,29,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0024012585907096135
+2027,H13,Paloma Court Hotel,midscale,noise,38,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0031464767740332863
+2027,H14,Willowmere Lodge,upscale,noise,26,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.002152852529601722
+2028,H01,Alder & Quay Hotel,upscale,noise,58,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.004802517181419227
+2028,H02,The Lantern House,boutique,noise,15,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0012420303055394552
+2028,H03,Marisol Bay Resort,luxury,noise,79,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0065413596091744635
+2028,H04,Harborlight Suites,upscale,noise,56,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.004636913140680632
+2028,H05,The Copper Meridian,luxury,noise,29,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0024012585907096135
+2028,H06,Seabright Grand,upscale,noise,88,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.007286577792498137
+2028,H07,The Wren Rooms,boutique,noise,18,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.001490436366647346
+2028,H08,Northgate Inn,economy,noise,51,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.004222903038834148
+2028,H09,Cedar & Salt Hotel,midscale,noise,64,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.005299329303635009
+2028,H10,Kestrel Park Hotel,midscale,noise,75,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.006210151527697276
+2028,H11,The Foxglove,boutique,noise,17,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0014076343462780493
+2028,H12,Ridgeline Motor Inn,economy,noise,25,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0020700505092324253
+2028,H13,Paloma Court Hotel,midscale,noise,53,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0043885070795727414
+2028,H14,Willowmere Lodge,upscale,noise,33,Noise and sleep,0.1,"3, 2, 1","street, corridor or neighbouring room noise",negative,"offer a move and a sleep kit, note the room",0.0027324666721868012
+2027,H01,Alder & Quay Hotel,upscale,checkin_wait,50,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0041401010184648505
+2027,H02,The Lantern House,boutique,checkin_wait,14,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.001159228285170158
+2027,H03,Marisol Bay Resort,luxury,checkin_wait,55,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.004554111120311336
+2027,H04,Harborlight Suites,upscale,checkin_wait,44,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0036432888962490686
+2027,H05,The Copper Meridian,luxury,checkin_wait,22,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0018216444481245343
+2027,H06,Seabright Grand,upscale,checkin_wait,79,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0065413596091744635
+2027,H07,The Wren Rooms,boutique,checkin_wait,14,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.001159228285170158
+2027,H08,Northgate Inn,economy,checkin_wait,25,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0020700505092324253
+2027,H09,Cedar & Salt Hotel,midscale,checkin_wait,32,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0026496646518175044
+2027,H10,Kestrel Park Hotel,midscale,checkin_wait,63,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0052165272832657116
+2027,H11,The Foxglove,boutique,checkin_wait,16,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0013248323259087522
+2027,H12,Ridgeline Motor Inn,economy,checkin_wait,19,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0015732383870166431
+2027,H13,Paloma Court Hotel,midscale,checkin_wait,29,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0024012585907096135
+2027,H14,Willowmere Lodge,upscale,checkin_wait,30,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0024840606110789103
+2028,H01,Alder & Quay Hotel,upscale,checkin_wait,56,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.004636913140680632
+2028,H02,The Lantern House,boutique,checkin_wait,15,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0012420303055394552
+2028,H03,Marisol Bay Resort,luxury,checkin_wait,70,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.005796141425850791
+2028,H04,Harborlight Suites,upscale,checkin_wait,44,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0036432888962490686
+2028,H05,The Copper Meridian,luxury,checkin_wait,28,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.002318456570340316
+2028,H06,Seabright Grand,upscale,checkin_wait,62,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.005133725262896414
+2028,H07,The Wren Rooms,boutique,checkin_wait,17,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0014076343462780493
+2028,H08,Northgate Inn,economy,checkin_wait,33,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0027324666721868012
+2028,H09,Cedar & Salt Hotel,midscale,checkin_wait,40,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0033120808147718804
+2028,H10,Kestrel Park Hotel,midscale,checkin_wait,40,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0033120808147718804
+2028,H11,The Foxglove,boutique,checkin_wait,15,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0012420303055394552
+2028,H12,Ridgeline Motor Inn,economy,checkin_wait,21,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0017388424277552373
+2028,H13,Paloma Court Hotel,midscale,checkin_wait,38,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0031464767740332863
+2028,H14,Willowmere Lodge,upscale,checkin_wait,35,Check-in and queue,0.09,"4, 3, 2",a wait at arrival or a room released late,negative,add a queue check at peak arrival,0.0028980707129253954
+2027,H01,Alder & Quay Hotel,upscale,billing,36,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.002980872733294692
+2027,H02,The Lantern House,boutique,billing,21,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0017388424277552373
+2027,H03,Marisol Bay Resort,luxury,billing,55,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.004554111120311336
+2027,H04,Harborlight Suites,upscale,billing,38,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0031464767740332863
+2027,H05,The Copper Meridian,luxury,billing,20,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0016560404073859402
+2027,H06,Seabright Grand,upscale,billing,72,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.005961745466589384
+2027,H07,The Wren Rooms,boutique,billing,12,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0009936242444315642
+2027,H08,Northgate Inn,economy,billing,27,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0022356545499710194
+2027,H09,Cedar & Salt Hotel,midscale,billing,44,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0036432888962490686
+2027,H10,Kestrel Park Hotel,midscale,billing,55,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.004554111120311336
+2027,H11,The Foxglove,boutique,billing,15,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0012420303055394552
+2027,H12,Ridgeline Motor Inn,economy,billing,26,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.002152852529601722
+2027,H13,Paloma Court Hotel,midscale,billing,30,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0024840606110789103
+2027,H14,Willowmere Lodge,upscale,billing,26,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.002152852529601722
+2028,H01,Alder & Quay Hotel,upscale,billing,50,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0041401010184648505
+2028,H02,The Lantern House,boutique,billing,23,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0019044464684938311
+2028,H03,Marisol Bay Resort,luxury,billing,62,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.005133725262896414
+2028,H04,Harborlight Suites,upscale,billing,37,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0030636747536639895
+2028,H05,The Copper Meridian,luxury,billing,30,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0024840606110789103
+2028,H06,Seabright Grand,upscale,billing,72,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.005961745466589384
+2028,H07,The Wren Rooms,boutique,billing,15,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0012420303055394552
+2028,H08,Northgate Inn,economy,billing,38,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0031464767740332863
+2028,H09,Cedar & Salt Hotel,midscale,billing,55,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.004554111120311336
+2028,H10,Kestrel Park Hotel,midscale,billing,58,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.004802517181419227
+2028,H11,The Foxglove,boutique,billing,13,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.001076426264800861
+2028,H12,Ridgeline Motor Inn,economy,billing,30,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0024840606110789103
+2028,H13,Paloma Court Hotel,midscale,billing,35,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0028980707129253954
+2028,H14,Willowmere Lodge,upscale,billing,32,Billing and charges,0.08,"3, 2, 1","an unexpected charge, deposit or rate mismatch",negative,audit the folio and refund where due,0.0026496646518175044
+2027,H01,Alder & Quay Hotel,upscale,wifi,35,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0028980707129253954
+2027,H02,The Lantern House,boutique,wifi,13,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.001076426264800861
+2027,H03,Marisol Bay Resort,luxury,wifi,42,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0034776848555104745
+2027,H04,Harborlight Suites,upscale,wifi,32,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0026496646518175044
+2027,H05,The Copper Meridian,luxury,wifi,15,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0012420303055394552
+2027,H06,Seabright Grand,upscale,wifi,52,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.004305705059203444
+2027,H07,The Wren Rooms,boutique,wifi,6,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0004968121222157821
+2027,H08,Northgate Inn,economy,wifi,27,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0022356545499710194
+2027,H09,Cedar & Salt Hotel,midscale,wifi,38,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0031464767740332863
+2027,H10,Kestrel Park Hotel,midscale,wifi,41,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0033948828351411772
+2027,H11,The Foxglove,boutique,wifi,10,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0008280202036929701
+2027,H12,Ridgeline Motor Inn,economy,wifi,16,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0013248323259087522
+2027,H13,Paloma Court Hotel,midscale,wifi,26,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.002152852529601722
+2027,H14,Willowmere Lodge,upscale,wifi,23,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0019044464684938311
+2028,H01,Alder & Quay Hotel,upscale,wifi,38,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0031464767740332863
+2028,H02,The Lantern House,boutique,wifi,10,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0008280202036929701
+2028,H03,Marisol Bay Resort,luxury,wifi,49,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.004057298998095553
+2028,H04,Harborlight Suites,upscale,wifi,30,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0024840606110789103
+2028,H05,The Copper Meridian,luxury,wifi,19,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0015732383870166431
+2028,H06,Seabright Grand,upscale,wifi,62,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.005133725262896414
+2028,H07,The Wren Rooms,boutique,wifi,14,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.001159228285170158
+2028,H08,Northgate Inn,economy,wifi,22,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0018216444481245343
+2028,H09,Cedar & Salt Hotel,midscale,wifi,24,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0019872484888631284
+2028,H10,Kestrel Park Hotel,midscale,wifi,37,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0030636747536639895
+2028,H11,The Foxglove,boutique,wifi,10,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0008280202036929701
+2028,H12,Ridgeline Motor Inn,economy,wifi,19,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0015732383870166431
+2028,H13,Paloma Court Hotel,midscale,wifi,26,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.002152852529601722
+2028,H14,Willowmere Lodge,upscale,wifi,29,Wifi and connectivity,0.07,"4, 3, 2","dropped signal, slow link or a broken login",negative,send the access point log to IT,0.0024012585907096135
+2027,H01,Alder & Quay Hotel,upscale,cleanliness,35,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0028980707129253954
+2027,H02,The Lantern House,boutique,cleanliness,18,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.001490436366647346
+2027,H03,Marisol Bay Resort,luxury,cleanliness,42,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0034776848555104745
+2027,H04,Harborlight Suites,upscale,cleanliness,36,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.002980872733294692
+2027,H05,The Copper Meridian,luxury,cleanliness,16,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0013248323259087522
+2027,H06,Seabright Grand,upscale,cleanliness,59,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.004885319201788523
+2027,H07,The Wren Rooms,boutique,cleanliness,10,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0008280202036929701
+2027,H08,Northgate Inn,economy,cleanliness,33,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0027324666721868012
+2027,H09,Cedar & Salt Hotel,midscale,cleanliness,35,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0028980707129253954
+2027,H10,Kestrel Park Hotel,midscale,cleanliness,49,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.004057298998095553
+2027,H11,The Foxglove,boutique,cleanliness,8,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0006624161629543761
+2027,H12,Ridgeline Motor Inn,economy,cleanliness,20,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0016560404073859402
+2027,H13,Paloma Court Hotel,midscale,cleanliness,28,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.002318456570340316
+2027,H14,Willowmere Lodge,upscale,cleanliness,22,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0018216444481245343
+2028,H01,Alder & Quay Hotel,upscale,cleanliness,42,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0034776848555104745
+2028,H02,The Lantern House,boutique,cleanliness,12,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0009936242444315642
+2028,H03,Marisol Bay Resort,luxury,cleanliness,46,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0038088929369876623
+2028,H04,Harborlight Suites,upscale,cleanliness,33,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0027324666721868012
+2028,H05,The Copper Meridian,luxury,cleanliness,30,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0024840606110789103
+2028,H06,Seabright Grand,upscale,cleanliness,70,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.005796141425850791
+2028,H07,The Wren Rooms,boutique,cleanliness,13,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.001076426264800861
+2028,H08,Northgate Inn,economy,cleanliness,42,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0034776848555104745
+2028,H09,Cedar & Salt Hotel,midscale,cleanliness,30,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0024840606110789103
+2028,H10,Kestrel Park Hotel,midscale,cleanliness,58,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.004802517181419227
+2028,H11,The Foxglove,boutique,cleanliness,8,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0006624161629543761
+2028,H12,Ridgeline Motor Inn,economy,cleanliness,18,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.001490436366647346
+2028,H13,Paloma Court Hotel,midscale,cleanliness,40,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0033120808147718804
+2028,H14,Willowmere Lodge,upscale,cleanliness,15,Cleanliness,0.07,"3, 2, 1","housekeeping missed a surface, linen or bathroom detail",negative,"reclean, inspect and coach the section",0.0012420303055394552
+2027,H01,Alder & Quay Hotel,upscale,group_trip,23,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0019044464684938311
+2027,H02,The Lantern House,boutique,group_trip,12,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0009936242444315642
+2027,H03,Marisol Bay Resort,luxury,group_trip,21,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0017388424277552373
+2027,H04,Harborlight Suites,upscale,group_trip,15,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0012420303055394552
+2027,H05,The Copper Meridian,luxury,group_trip,14,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.001159228285170158
+2027,H06,Seabright Grand,upscale,group_trip,42,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0034776848555104745
+2027,H07,The Wren Rooms,boutique,group_trip,5,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.00041401010184648505
+2027,H08,Northgate Inn,economy,group_trip,16,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0013248323259087522
+2027,H09,Cedar & Salt Hotel,midscale,group_trip,18,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.001490436366647346
+2027,H10,Kestrel Park Hotel,midscale,group_trip,23,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0019044464684938311
+2027,H11,The Foxglove,boutique,group_trip,6,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0004968121222157821
+2027,H12,Ridgeline Motor Inn,economy,group_trip,13,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.001076426264800861
+2027,H13,Paloma Court Hotel,midscale,group_trip,13,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.001076426264800861
+2027,H14,Willowmere Lodge,upscale,group_trip,8,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0006624161629543761
+2028,H01,Alder & Quay Hotel,upscale,group_trip,21,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0017388424277552373
+2028,H02,The Lantern House,boutique,group_trip,12,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0009936242444315642
+2028,H03,Marisol Bay Resort,luxury,group_trip,19,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0015732383870166431
+2028,H04,Harborlight Suites,upscale,group_trip,20,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0016560404073859402
+2028,H05,The Copper Meridian,luxury,group_trip,14,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.001159228285170158
+2028,H06,Seabright Grand,upscale,group_trip,44,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0036432888962490686
+2028,H07,The Wren Rooms,boutique,group_trip,7,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.000579614142585079
+2028,H08,Northgate Inn,economy,group_trip,15,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0012420303055394552
+2028,H09,Cedar & Salt Hotel,midscale,group_trip,14,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.001159228285170158
+2028,H10,Kestrel Park Hotel,midscale,group_trip,21,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0017388424277552373
+2028,H11,The Foxglove,boutique,group_trip,9,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.000745218183323673
+2028,H12,Ridgeline Motor Inn,economy,group_trip,11,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0009108222240622672
+2028,H13,Paloma Court Hotel,midscale,group_trip,20,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0016560404073859402
+2028,H14,Willowmere Lodge,upscale,group_trip,16,Group or family stay,0.04,"5, 4, 3","a group, wedding or family booking with mixed needs",mixed,confirm room allocations before arrival,0.0013248323259087522
